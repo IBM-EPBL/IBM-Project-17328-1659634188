@@ -2,7 +2,7 @@
 
 Personal Expense Tracker Application:
 
-Team Members:\n
+Team Members:
 1.Naveen M R
 2.Rohit A S
 3.Sreenidhi S
