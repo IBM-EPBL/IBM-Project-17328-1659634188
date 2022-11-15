@@ -1,0 +1,48 @@
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Sign-in</title>
+	<link href="..\static\css\signup.css" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/a81368914c.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+		integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+
+<body>
+	<!--container---------------------->
+	<div class="container">
+		<!--sign-up-box-container--->
+		<div class="sign-up">
+
+			<!--heading-->
+			<form action="/login" method="post">
+				<div class="msg">{{ msg }}</div>
+				<h1 class="heading">Login</h1>
+				<!--name-box-->
+				<div class="text">
+					<img height="20px" src="..\static\images\user.png" />
+					<input placeholder="username" type="text" name="username" />
+				</div>
+				<!--Password-box-->
+				<div class="text">
+					<img height="20px" src="..\static\images\password.png" />
+					<input placeholder="password" type="password" name="password" />
+				</div>
+
+				<div class="toop">
+					<button type="submit" class="btn btn-primary">LOGIN</button>
+				</div>
+
+			</form>
+			<!--text-container-->
+			<div class="text-container">
+
+
+				<div class="diag"><img class="fig1" width="100%" height="105%" src="..\static\images\signup2.jpg"></div>
+
+			</div>
+		</div>
+</body>
+
+</html>
